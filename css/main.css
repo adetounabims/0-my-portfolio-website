@@ -1,0 +1,152 @@
+/**BASE STYLES**/
+body{
+	font-family:'Montserrat', sans-serif ;
+	font-size: 16px;
+	line-height: 30px;
+}
+
+/***** GRID *****/
+.full-width {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+.half-width {
+	float: left;
+	width: 600px;
+}
+.third-width{
+	float: left;
+	text-align: center;
+	width: 400px;
+
+}
+
+/***** HEADER *****/
+header {
+    background: url('../img/header.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+header h1 { 
+	    color:#BBC085 ;
+        font-family:'Noto Sans', sans-serif;
+   	    font-size: 40px;
+   		font-weight: normal;
+   		padding: 65px 0px 65px 25px;
+}
+nav {
+    float: right;
+    padding: 75px 25px; 
+    }
+nav ul li{
+    display: inline-block;
+    font-size: 25px;
+    padding-left: 25px;
+    text-transform: uppercase;
+}
+nav ul li a:link, a:visited{
+	text-decoration: none;
+}
+
+
+/**MAIN**/
+section h2{
+	font-size: 28px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.title{
+	font-family:'Piazzolla', serif; 
+	font-size:32px;
+	font-weight: lighter;
+}
+
+/**about me**/
+#about{
+	background-color:#fce2e1;
+	display: block;
+	height: 650px;
+	margin: 0px 0px 0px 0px;
+	width: 100%;
+}
+#adetoun{
+	padding-top: 50px;
+}
+
+.about-heading{
+	padding-top: 20px;
+	text-align: left;
+}
+
+#about-me{
+	font-family:'Piazzolla', serif;
+	font-size: 24px;
+	padding-top: 20px;
+	text-align: left;
+}
+#about-me p{
+	font-weight: lighter;
+}
+
+/** Portfolio**/
+#portfolio{
+	padding-top: 30px;
+}
+#portfolio a:link, a:visited {
+  background-color:#7f8781;
+  color: white;
+  display: inline-block;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+}
+#portfolio a:hover, a:active {
+  background-color:black;
+  color: white;
+}
+
+
+/**footer**/
+footer{
+	display: block;
+	width: 100%;
+}
+footer h3{
+	font-family:'Piazzolla', serif; 
+	font-size:32px;
+	font-weight: lighter;
+	padding-top: 20px;
+	text-align: center;
+}
+div .call-me{
+	display: inline-block;
+	padding-top: 55px;
+	text-align: center;
+}
+div .second-width{
+	text-align: center;
+}
+.links{
+	text-align: center;
+}
+footer a:link, a:visited {
+	color: black;
+	font-size: 28px;
+	text-decoration: none;
+}
+footer ul li{
+	display: inline-block;
+	list-style: none;
+}
+footer ul img{
+	padding-right: 24px;
+}
+footer .location{
+	text-align: center;
+}
+.copy{
+	font-size: 22px;
+	text-align: center;
+}
